@@ -797,7 +797,7 @@ display: none;
 /* Footer */
 
   #footer {
-    margin-left: 0;
+    margin-left: 170px;
   }
 
 /* Main */
@@ -812,7 +812,7 @@ display: none;
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     padding-bottom: 1px;
-    margin-left: 0;
+    margin-left: 170px;
   }
 
     #main > section {
