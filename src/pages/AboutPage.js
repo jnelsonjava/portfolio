@@ -9,7 +9,9 @@ function AboutPage(props) {
       <Hero title={props.title} />
 
       <Content>
-        <p>Hi! I'm Jack. I do Java. This is some placeholder text though.</p>
+        <p>
+          I'm Jack. I'm a Software Developer, primarily in Java.
+        </p>
       </Content>
     </div>
   );

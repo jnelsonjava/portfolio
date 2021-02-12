@@ -10,6 +10,11 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 
+import githubIcon from './assets/images/github-icon.png';
+import linkedinIcon from './assets/images/linkedin-icon.png';
+import gmailIcon from './assets/images/gmail-icon.png';
+
+
 class App extends React.Component {
 
   constructor(props) {
@@ -31,6 +36,20 @@ class App extends React.Component {
       },
       contact: {
         title: 'I\'d love to hear from you!'
+      },
+      footer: {
+        github: {
+          icon: githubIcon,
+          link: 'https://github.com/jnelsonjava',
+        },
+        linkedin: {
+          icon: linkedinIcon,
+          link: 'https://www.linkedin.com/in/jnelsonjava/',
+        },
+        gmail: {
+          icon: gmailIcon,
+          link: 'jnelson.java@gmail.com',
+        }
       }
     }
   }
@@ -41,7 +60,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Jack Nelson</Navbar.Brand>
+            <Navbar.Brand>Jack Nelson<br/>Software Developer - Java | JavaScript | Python</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
@@ -58,7 +77,7 @@ class App extends React.Component {
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
 
-          <Footer />
+          <Footer assets={this.state.footer} />
 
         </Container>
       </Router>
