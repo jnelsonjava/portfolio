@@ -36,6 +36,7 @@ code {
 .p-card-sub-title {
   font-size: 16px;
   margin: 0px;
+  max-width: 280px;
 }
 
 .success-msg {
