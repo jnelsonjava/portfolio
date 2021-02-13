@@ -1,49 +1,10 @@
-# portfolio
+# Portfolio
 
-### feature estimates:
+Building a portfolio website to get familiar with React.
 
-Number and name of feature: #1 Refactor the CSS
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Estimate of time needed to complete: 30m
+## Attributions
 
-Start time: 7:50pm
-
-Finish time: 8:30pm
-
-Actual time needed to complete: 40m
-
----
-
-Number and name of feature: #2 Modify the contents
-
-Estimate of time needed to complete: 2hr
-
-Start time: 
-
-Finish time: _____
-
-Actual time needed to complete: _____
-
----
-
-Number and name of feature: #3 Deployment
-
-Estimate of time needed to complete: 1hr
-
-Start time: 5:00pm
-
-Finish time: 5:45pm
-
-Actual time needed to complete: 45m
-
----
-
-Number and name of feature: #2 Add functionality
-
-Estimate of time needed to complete: 3hr
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
+- Icons by Kalash through [Iconfinder](https://www.iconfinder.com/iconsets/social-media-and-logos-11)
+- React guide by [DevGrub](https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw)
